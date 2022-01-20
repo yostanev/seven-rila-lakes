@@ -1,5 +1,4 @@
 import React from 'react'
-import ImageGallery from 'react-image-gallery';
 import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 import B1 from './assets/b1.jpg';
 import B2 from './assets/b2.jpg';
@@ -32,7 +31,7 @@ const images = [
 
 class MyGallery extends React.Component {
   render() {
-    return <ImageGallery items={images} />;
+    return 0;
   }
 }
 
